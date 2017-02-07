@@ -20,7 +20,7 @@ In Sails.js v0.11+ installed hooks are run automatically. Therefore, simply inst
 
 ## ToDo
 
-- [ ] Integrate [sails-hook-blueprint-sum](https://github.com/GregKapustin/sails-hook-blueprint-sum)
+- [X] Integrate [sails-hook-blueprint-sum](https://github.com/GregKapustin/sails-hook-blueprint-sum)
 - [ ] Fix [Policies not applied](https://github.com/kristian-ackar/sails-hook-blueprint-count/issues/4)
 - [ ] Integrate group by ([ref])
 - [ ] Integrate AVG ([ref])
