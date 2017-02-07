@@ -1,0 +1,31 @@
+{
+  "name": "sails-hook-blueprint-aggregate",
+  "version": "0.0.2",
+  "description": "Adds blueprint api method to aggregate records in database.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rdit-ch/sails-hook-blueprint-aggregate.git"
+  },
+  "dependencies": {
+    "lodash": "3.10.1",
+    "pluralize": "1.2.1",
+    "merge-defaults": "0.2.1"
+  },
+  "sails": {
+    "isHook": true
+  },
+  "author": "Enteee (ducksource@duckpond.ch)",
+  "license": "MIT",
+  "keywords": [
+    "sails",
+    "blueprint",
+    "hook",
+    "count"
+  ],
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "https://github.com/rdit-ch/sails-hook-blueprint-aggregate"
+}
