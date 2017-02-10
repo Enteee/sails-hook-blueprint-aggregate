@@ -6,7 +6,7 @@
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/rdit-ch/sails-hook-blueprint-aggregate.git"
+    "url": "git+https://github.com/rdit-ch/sails-hook-blueprint-aggregate.git"
   },
   "dependencies": {
     "@sailshq/lodash": "^3.10.2",
@@ -28,8 +28,9 @@
     "hook",
     "count"
   ],
+  "homepage": "https://github.com/rdit-ch/sails-hook-blueprint-aggregate",
+  "devDependencies": {},
   "bugs": {
-    "url": ""
-  },
-  "homepage": "https://github.com/rdit-ch/sails-hook-blueprint-aggregate"
+    "url": "https://github.com/rdit-ch/sails-hook-blueprint-aggregate/issues"
+  }
 }
