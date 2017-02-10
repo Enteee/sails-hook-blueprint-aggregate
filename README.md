@@ -38,7 +38,7 @@ GET /:model/count?where={:CRITERIA}&groupBy=:Attribute
 | -----  | ------  |
 |`Model/count` | `[ { "count": 4 } ]` |
 |`Model/aggregate?groupBy=valid` | `[ { "false": 3, "true": 1 } ]` |
-|`Model/count?groupBy=["valid","test"] | `[ { "false,24": 2, "true,31": 1, "false,87": 1 } ]` |
+|`Model/count?groupBy=["valid","test"]` | `[ { "false,24": 2, "true,31": 1, "false,87": 1 } ]` |
 
 "where" parameter is optional. If it's used it's used in the same way like you use it in default blueprint api find method
 [Sails.js blueprint api find method documentation](http://sailsjs.org/documentation/reference/blueprint-api/find-where).
