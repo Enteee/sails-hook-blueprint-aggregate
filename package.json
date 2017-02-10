@@ -1,6 +1,6 @@
 {
   "name": "sails-hook-blueprint-aggregate",
-  "version": "1.0.0",
+  "version": "0.9.0",
   "description": "Adds blueprint api method to aggregate records in database.",
   "main": "index.js",
   "scripts": {},
