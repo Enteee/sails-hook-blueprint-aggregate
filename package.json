@@ -9,9 +9,13 @@
     "url": "https://github.com/rdit-ch/sails-hook-blueprint-aggregate.git"
   },
   "dependencies": {
+    "@sailshq/lodash": "^3.10.2",
+    "async": "^2.1.4",
+    "flaverr": "^1.1.1",
+    "include-all": "^3.0.1",
     "lodash": "4.17.4",
-    "pluralize": "3.1.0",
-    "merge-defaults": "0.2.1"
+    "merge-defaults": "0.2.1",
+    "pluralize": "3.1.0"
   },
   "sails": {
     "isHook": true
