@@ -1,4 +1,4 @@
-# sails-hook-blueprint-aggregate
+# sails-hook-blueprint-aggregate [![npm version](https://badge.fury.io/js/sails-hook-blueprint-aggregate.svg)](https://badge.fury.io/js/sails-hook-blueprint-aggregate)
 _Adds blueprint api method to aggregate records in database._
 
 This is useful for example in pagination when you need to calculate number of pages. 
@@ -23,7 +23,7 @@ GET /:model/aggregate?where={:CRITERIA}&groupBy=:Attribute&sum=:Attribute&averag
 | ----- | -------- |
 |`Model/aggregate?groupBy=valid` | `[ { "valid": false }, { "valid": true } ]` |
 |`Model/aggregate?groupBy=valid&sum=test` | `[ { "valid": false, "test": 720 }, { "valid": true, "test": 199 } ]` |
-|`Model/aggregate?groupBy=valid&average=test` | ` { "valid": false, "test": 45 }, { "valid": true, "test": 66.3333333333333 }`|
+|`Model/aggregate?groupBy=valid&average=test` | `[ { "valid": false, "test": 45 }, { "valid": true, "test": 66.3333333333333 } ]`|
 |`Model/aggregate?min=test` | ` [ { "test": 2 } ] ` |
 
 ### Count
